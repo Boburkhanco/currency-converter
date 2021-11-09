@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <title>Currency calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title mt-5">Valyuta Narx O'tkazma</h1>
+        <div class="justify-content-between inputlar">
+            <div class="col-md-4 mt-4">
+                <div class="input-group mt-5 forma">
+                    <input id="kiritilgan-summa" type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" placeholder="Miqdorni kiriting">
+                    <span class="input-group-text">Sum</span>
+                    <span class="input-group-text">0.00</span>
+                    <button class="btn btn-primary mt-4" type="submit">Submit</button>
+                </div>
+                
+            </div>
+            <div class="col-md-4 mt-5">
+                <h2 class="natija-title ekran mt-4">Natija</h2>
+                <div class="input-group mt-4 results">
+                    <span id="natija-som" class="input-group-text ekran">Summa</span>
+                </div>
+
+                <div class="input-group mt-4">
+                    <span id="natija-dollar" class="input-group-text ekran">Summa</span>
+                </div>
+
+                <div class="input-group mt-4">
+                    <span id="natija-euro" class="input-group-text ekran">Summa</span>
+                </div>
+
+                <div class="input-group mt-4">
+                    <span id="natija-ruble" class="input-group-text ekran">Summa</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+
+    <script src="./main.js"></script>
+</body>
+</html>

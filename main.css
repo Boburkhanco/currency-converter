@@ -1,0 +1,43 @@
+
+.inputlar{
+    display: flex;
+}
+.btn{
+    width: 100%;
+    border-radius: 5px;
+}
+.ekran{
+    width: 100%;
+}
+.main-title{
+    text-align: center;
+    font-style: 35px;
+    color: gray;
+}
+.natija-title{
+    border: 2px solid rgba(0, 128, 0, 0.61);
+    background-color: rgb(100, 199, 158);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-family: copperplate;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+
+@media only screen and (max-width: 850px) {
+    .inputlar{
+        flex-direction: column;
+    }
+    .forma, .results{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .ekran{
+        width: 100%;
+    }
+}
